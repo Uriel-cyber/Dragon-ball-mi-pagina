@@ -1,0 +1,52 @@
+﻿body {
+    font-family: Verdana, sans-serif; /* Puedes cambiar 'Verdana' por otra fuente si prefieres */
+    background-image: url("img/goku.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para mejor legibilidad */
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    margin-top: 20px;
+}
+
+.nav-links a {
+    color: #FFD700; /* Color dorado para los enlaces */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #FFA500; /* Cambia de color al pasar el cursor */
+}
+.nav-links {
+    display: block;
+    width: 100%;
+    text-align: center; /* Opcional: para centrar los enlaces */
+    margin-bottom: 20px; /* Espacio debajo del menú */
+}
+.image-container {
+    clear: both;
+}
+

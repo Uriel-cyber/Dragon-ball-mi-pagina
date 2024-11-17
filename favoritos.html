@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+        }
+
+        .image-container img {
+            width: 350px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+
+        .nav-links {
+            margin-top: 30px;
+        }
+
+        .nav-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #5aff31;
+        }
+
+        .nav-links a:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <h1>Favoritos</h1>
+        <p>Una lista de los personajes y momentos favoritos de Dragon Ball, según mi opinión.</p>
+
+        <!-- Contenedor de imágenes -->
+        <div class="image-container">
+            <div class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="fragmentos.html">Fragmentos</a>
+                <a href="legends_limited.html">Legends Limited</a>
+                <a href="favoritos.html">Favoritos</a>
+                <a href="eventos.html">Eventos</a>
+            </div>
+            <div>
+                <p>1° y 2° puesto:</p>
+                
+                
+                <a href="img/goku.jpg" target="_blank">
+                    <img src="img/goku.jpg" alt="Goku">
+                </a>
+                <a href="img/vegueta ultra.jpg" target="_blank">
+                    <img src="img/vegueta ultra.jpg" alt="Vegeta Ultra">
+                </a>
+                
+              
+            </div>
+
+            <div>
+                <p>3° y 4° puesto:</p>
+                <a href="img/goguetass4.jpg" target="_blank">
+                    <img src="img/goguetass4.jpg" alt="Gogeta SS4">
+                </a>
+                <a href="img/gohan ss2.jpg_large" target="_blank">
+                    <img src="img/gohan ss2.jpg_large" alt="Gohan SS2">
+                </a>
+            </div>
+
+            <div>
+                <p>5° y 6° puesto:</p>
+                
+                <a href="img/vegitossblue.jpeg" target="_blank">
+                    <img src="img/vegitossblue.jpeg" alt="Vegito SS Blue">
+                </a><a href="img/vegitosssj.jpg" target="_blank">
+                    <img src="img/vegitosssj.jpg" alt="Vegito SSJ">
+                </a>
+            </div>
+            
+            <h3>animacion de un ultra ,el faorito :</h3>
+           <a> <video src="videos/vegito ssj ultra .mp4" width="600" height="500" loop controls ></video></a>
+        </div>
+
+        <!-- Enlaces de navegación -->
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="fragmentos.html">Fragmentos</a>
+            <a href="legends_limited.html">Legends Limited</a>
+            <a href="favoritos.html">Favoritos</a>
+            <a href="eventos.html">Eventos</a>
+        </div>
+    </div>
+</body>
+</html>
